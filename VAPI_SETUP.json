@@ -1,0 +1,12 @@
+{
+    "name": "mooncare-voice-assistant-setup",
+    "version": "1.0.0",
+    "description": "Setup script for MoonCare Voice Assistant",
+    "scripts": {
+        "setup:vapi": "npm install @vapi-ai/web",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "postinstall": "echo '\n✨ Don\\'t forget to add your Vapi API keys to .env.local!\n'"
+}
